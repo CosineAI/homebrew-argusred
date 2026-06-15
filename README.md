@@ -2,6 +2,9 @@
 
 Homebrew tap for [ArgusRed](https://argusred.com) — automated security audit and pen-test agent.
 
+> Availability: macOS on Apple Silicon (arm64). Intel macOS, Linux, and signed
+> builds are coming soon.
+
 ## Install
 
 ```bash

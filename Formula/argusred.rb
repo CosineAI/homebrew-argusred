@@ -26,13 +26,15 @@ class Argusred < Formula
     # The MVP binary is not yet notarized, so macOS Gatekeeper quarantines it on
     # download. Strip the attribute so `argusred` runs without a security
     # prompt. (Removed once builds are signed + notarized.)
-    system "/usr/bin/xattr", "-dr", "com.apple.quarantine", "#{bin}/argusred"
+    system "/usr/bin/xattr", "-dr", "com.apple.quarantine", bin/"argusred"
   end
 
   def caveats
     <<~EOS
       Get started:
         argusred
+
+      On first launch ArgusRed opens your browser to sign in with Cosine.
 
       This build targets Apple Silicon (arm64). Intel macOS, Linux, and signed
       builds are coming soon.

@@ -8,8 +8,7 @@ Homebrew tap for [ArgusRed](https://argusred.com) — automated security audit a
 ## Install
 
 ```bash
-brew tap CosineAI/argusred
-brew install argusred
+brew install CosineAI/argusred/argusred
 ```
 
 Then run:
@@ -18,12 +17,8 @@ Then run:
 argusred
 ```
 
-Set your license key (required for full access):
-
-```bash
-export ARGUSRED_LICENSE_KEY=your_key_here
-argusred
-```
+On first launch ArgusRed opens your browser to sign in with Cosine. Once signed
+in, scans run against your Cosine account — there is no separate key to set.
 
 ## Update
 

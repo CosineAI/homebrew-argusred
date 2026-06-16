@@ -15,7 +15,7 @@ class Argusred < Formula
   homepage "https://argusred.com"
   url "https://github.com/CosineAI/argusred-dist/releases/download/v0.1.0/argusred-darwin-arm64.tar.gz"
   version "0.1.0"
-  sha256 "6c9c4b6adfb613726bce4fd766a20b023c89e2593d2098bbb44035f37529f6a9"
+  sha256 "438f8d5e7640a5ff3bcd46b2b8118afc195f52b5379d94de74e8be3d9cfba6fc"
 
   # MVP targets Apple Silicon macOS only.
   depends_on arch: :arm64
@@ -31,9 +31,7 @@ class Argusred < Formula
 
   def caveats
     <<~EOS
-      ArgusRed requires a license key:
-        export ARGUSRED_LICENSE_KEY=your_key_here
-      Then run:
+      Get started:
         argusred
 
       This build targets Apple Silicon (arm64). Intel macOS, Linux, and signed

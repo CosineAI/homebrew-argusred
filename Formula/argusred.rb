@@ -12,7 +12,7 @@
 class Argusred < Formula
   desc "Automated security audit and pen-test agent"
   homepage "https://argusred.com"
-  url "https://software.cosine.sh/argusred/release/ARGUSRED_VERSION/argusred-darwin-arm64.tar.gz"
+  url "https://github.com/CosineAI/argusred-dist/releases/download/ARGUSRED_VERSION/argusred-darwin-arm64.tar.gz"
   sha256 "ARGUSRED_SHA256_DARWIN_ARM64"
 
   # MVP targets Apple Silicon macOS only.

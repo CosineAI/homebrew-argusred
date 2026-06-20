@@ -13,9 +13,9 @@
 class Argusred < Formula
   desc "Automated security audit and pen-test agent"
   homepage "https://argusred.com"
-  url "https://github.com/CosineAI/argusred-dist/releases/download/v0.1.5/argusred-darwin-arm64.tar.gz"
-  version "0.1.5"
-  sha256 "c11baf779324d77e05dc152173e5262e4f6e7e85569e3e1ae8829c589bb53fd0"
+  url "https://github.com/CosineAI/argusred-dist/releases/download/v0.1.6/argusred-darwin-arm64.tar.gz"
+  version "0.1.6"
+  sha256 "6e749dddbb74b1b711e1063b8a92739b0e6836ca326fc144ebb22bc59a7fa241"
 
   # MVP targets Apple Silicon macOS only.
   depends_on arch: :arm64
